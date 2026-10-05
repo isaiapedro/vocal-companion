@@ -1,0 +1,8 @@
+[project]
+name = "pios-vocal-practice-companion"
+version = "0.1.0"
+description = "Local-only singing practice archive and CLI"
+requires-python = ">=3.10"
+
+[project.scripts]
+vocal-practice = "vocal_practice:main"
